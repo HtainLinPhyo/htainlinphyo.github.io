@@ -1,0 +1,294 @@
+	body{
+			margin: 0px;
+			padding: 0px;
+		}
+	header{
+			background: goldenrod;
+			padding: 5px;
+			font-size: 35px;
+			text-align: center;
+			color: black;
+			word-spacing: 10px;
+			letter-spacing: 20px;
+
+
+			
+		}
+
+	footer{
+			background: khaki;
+			padding: 10px;
+			font-size: 18px;
+			text-align: right;
+			color: goldenrod;
+		
+		}
+		nav{
+			background: goldenrod;
+			overflow: hidden;
+
+			
+			
+		}
+		a{
+			text-decoration: none;
+			color: white;
+			padding: 10px 20px;
+			float: left;
+			border-radius: 30px;
+		}
+		.c1{
+			float: right;
+		}
+		a:hover{
+			background: khaki;
+			color: goldenrod;
+			border: 1px solid goldenrod;
+		}
+		.simg{
+			width: 100%;
+			height: 500px;
+			position: relative;
+				}
+		.sp{
+			position: absolute;
+			top: 20%;
+			left: 50%;
+			color: goldenrod;
+			font-size: 38px;
+			text-align: center;
+			
+		}
+		.sspan{
+			background: black;
+			padding: 17px;
+			opacity: 0.6;
+
+		}
+		.bspan{
+			background: goldenrod;
+			padding: 17px;
+			opacity: 0.6;
+			color: black;
+			opacity: 0.6;
+			font-style: italic;	
+		}
+		.f1{
+		box-shadow: 3px 3px 3px 3px gray;
+		margin: 20px;
+		overflow: hidden;
+		background: blue;	
+		color: white;
+		}
+		.f2{
+			width: 700px;
+			float: left;
+			padding: 5px;
+		}
+		.f3{
+			float: right;
+			width: 25%;
+			
+		}
+		.n1{
+			color: red;
+			background: pink;
+			padding: 10px;
+		}
+		.col{
+			width: 25%;
+			height: 50%;
+			box-shadow: 1px 1px 1px 1px darkblue;
+			margin: 32px;
+			padding: 10px;
+			float: left;
+			border-radius: 20px;
+		}
+		.row::after{
+			content: "";
+			clear: both;
+			display: table;
+		}
+		.fimg{
+			width: 100%;
+			height: 300px;
+		}
+		.col1{
+			width: 21%;
+			height: 50%;
+			box-shadow: 1px 1px 1px 1px gray;
+			margin: 9px;
+			padding: 10px;
+			float: left;
+		}
+		.row1::after{
+			content: "";
+			clear: both;
+			display: table;
+		}
+		.fimg1{
+			width: 100%;
+			height: 200px;
+				}
+		.colp{
+			width: 21%;
+			height: 90%;
+			box-shadow: 1px 1px 1px 1px gray;
+			margin: 9px;
+			padding: 10px;
+			float: left;
+		}
+		.fimgb{
+			width: 100%;
+			height: 300px;
+				}
+		.about{
+			margin: 5px;
+			text-align: justify;
+		}
+		.buybuttom{
+			background: limegreen;
+			border: none;
+			text-align: center;
+			float: right;
+			font-size: 20px;
+			color: darkgreen;
+			border-radius: 20px;
+		}
+
+
+		form{
+			margin: 20px;
+
+		}
+		input{
+			width: 100%;
+			height: 25px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			border: 1px solid khaki;
+		}
+		textarea{
+			width: 100%;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			border: 1px solid khaki;
+		}
+		button{
+			background: goldenrod;
+			color: khaki;
+			width: 100px;
+			height: 30px;
+			border: none;
+
+		}
+
+	.pea{
+		box-shadow:;
+		margin: 6px;
+		overflow: hidden;
+		background: ;	
+		color: black;
+		width: 98%;
+		height: 80%;
+		}
+		.ipea{
+			width: 400px;
+			height: 470px;
+			float: left;
+			padding: 5px;
+		}
+		..ppea{
+			float: right;
+			width: 25%;
+			margin: 10px;
+			
+		}
+
+
+
+	/*		phone screen*/
+		@media screen and (max-width: 650px){
+			
+			header{
+				font-size: 20px;
+				letter-spacing: 0px;
+			}
+			.sp{
+				font-size: 19px;
+				top: 16%;
+				left: 33%;
+			}
+			a{
+				padding: 5px 10px;
+			}
+			.simg{
+				height: 300px;
+			}
+			.f2{
+				width: 280px;
+				font-size: 10px;
+			}
+			.n1{font-size: 20px}
+			.op{font-size: 13px}
+			.col{
+				width: 25%;
+				height: 10%;
+				margin: 7px;
+				float: left;
+			}
+			.fimg{
+				height: 150px;
+				padding: 5px;
+			}
+			.sbt{
+				font-size: 10px;
+			}
+			.abti{
+				font-size: 15px;
+				letter-spacing: 2px;
+			}
+			.col1{
+				width: 190px;
+				height: 280px;
+				margin: 7px;
+				float: left;
+				padding: 5px;
+			}
+			.fimg1{
+				height: 190px;
+				padding: 1px;
+			}
+
+
+			.colp{
+				width: 185px;
+				height: 250px;
+				margin: 7px;
+				float: left;
+				margin: 5px;
+			}
+			.fimgb{
+				height: 250px;
+				padding: px;
+			}
+			.shwb{
+				font-size: 20px;
+				letter-spacing: 1px;
+			}
+			table{
+				width: 100%;
+				
+			}
+			.buybuttom{
+				font-size: 10px;
+			}
+			.cont1{
+				padding: 18px;
+				font-size: 13px;
+			}
+			.about{
+				font-size: 10px;
+				padding: 5px;
+			}
+		}			
